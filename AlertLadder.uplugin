@@ -1,27 +1,27 @@
 {
-  "FileVersion": 3,
-  "Version": 1,
-  "VersionName": "1.0.0",
-  "EngineVersion": "5.8.0",
-  "FriendlyName": "AlertLadder - Alert States, Escalation & Search",
-  "Description": "A guard that goes from hunting you to humming to itself the moment you break line of sight is the oldest bug in stealth. AlertLadder is the ladder: unaware, suspicious, searching, alerted - climbed by stimuli, descended only by decay, and never skipped on the way down. Thresholds carry hysteresis, so a guard on the boundary does not flicker between two states. The last known position is where the target WAS when contact was lost, never where it is now, and the search radius grows from that point over time instead of being a single spot the guard stands on. A shared alarm raises the group's floor rather than setting its level, so the guard already hunting you does not calm down because a colleague just noticed something. Every rule is a pure function the component and the tests both call, so what the debug draw shows and what the AI does cannot drift apart.",
-  "Category": "AI",
-  "CreatedBy": "Silvan Teufel",
-  "CreatedByURL": "https://silvan.teufel-engineering.com",
-  "DocsURL": "https://wiki.teufel-engineering.com/en/AlertLadder/documentation",
-  "SupportURL": "mailto:teufelsilvan@gmail.com",
-  "CanContainContent": true,
-  "IsBetaVersion": false,
-  "IsExperimentalVersion": false,
-  "Installed": false,
-  "Modules": [
-    {
-      "LoadingPhase": "PreDefault",
-      "PlatformAllowList": [
-        "Win64"
-      ],
-      "Name": "AlertLadder",
-      "Type": "Runtime"
-    }
-  ]
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"EngineVersion": "5.8.0",
+	"FriendlyName": "AlertLadder - Alert States, Escalation & Search",
+	"Description": "A guard that goes from hunting you to humming to itself the moment you break line of sight is the oldest bug in stealth. AlertLadder is the ladder: unaware, suspicious, searching, alerted - climbed by stimuli, descended only by decay, and never skipped on the way down. Thresholds carry hysteresis, so a guard on the boundary does not flicker between two states. The last known position is where the target WAS when contact was lost, never where it is now, and the search radius grows from that point over time instead of being a single spot the guard stands on. A shared alarm raises the group's floor rather than setting its level, so the guard already hunting you does not calm down because a colleague just noticed something. Every rule is a pure function the component and the tests both call, so what the debug draw shows and what the AI does cannot drift apart.",
+	"Category": "AI",
+	"CreatedBy": "Silvan Teufel",
+	"CreatedByURL": "https://silvan.teufel-engineering.com",
+	"DocsURL": "https://wiki.teufel-engineering.com/en/AlertLadder/documentation",
+	"SupportURL": "mailto:teufelsilvan@gmail.com",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64"
+			],
+			"Name": "AlertLadder",
+			"Type": "Runtime"
+		}
+	]
 }
